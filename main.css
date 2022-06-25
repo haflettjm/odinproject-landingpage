@@ -124,6 +124,23 @@ section{
     height: 16rem;
 }
 
+.heroText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.HeroBtn{
+    color: white;
+    background: #3882F6;
+    border: none;
+    border-radius: .75rem;
+    width: 25%;
+    padding: .75rem;
+    font-size: 18px;
+    font-weight: 600;
+}
+
 .darkBckgndColor{
     background-color: #1F2937;
     color: #F9FAF8;
@@ -217,11 +234,14 @@ section{
     text-align: left;
 }
 
-.ctaBtnClr{
+.ctaBtn{
     border-radius: 0.25rem;
+    background: none;
     color: #E5E7EB;
-    padding: .5rem 2rem;
+    padding: .45rem 3rem;
     border: 3px solid #E5E7EB;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 .ctaHeaderTxt{
